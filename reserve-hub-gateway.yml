@@ -12,6 +12,11 @@ spring:
           predicates:
             - Path=/api/v1/utilisateur/**
 
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://reserve-hub-discovery-server:8761/eureka/
+      
 management:
   endpoints:
     web:
