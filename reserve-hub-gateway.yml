@@ -11,3 +11,12 @@ spring:
           uri: lb:http://RESERVE-HUB-UTILISATEUR-SERVER
           predicates:
             - Path=/api/v1/utilisateur/**
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+    health:
+      show:
+        details: always
