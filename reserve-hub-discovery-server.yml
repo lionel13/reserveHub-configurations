@@ -8,7 +8,7 @@ eureka:
       default-zone: http://${eureka.instance.hostname}/${server.port}/eureka/
 
 server:
-  port: 8761
+  port: 10120
 
 management:
   endpoints:
