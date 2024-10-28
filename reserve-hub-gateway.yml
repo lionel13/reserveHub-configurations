@@ -1,5 +1,5 @@
 server:
-  port: 8222
+  port: 10130
 spring:
   cloud:
     gateway:
@@ -15,7 +15,7 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://reserve-hub-discovery-server:8761/eureka/
+      defaultZone: http://reserve-hub-discovery-server:10120/eureka/
       
 management:
   endpoints:
