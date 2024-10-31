@@ -1,0 +1,27 @@
+server:
+  port: 10130
+spring:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: reserve-hub-utilisateur-server
+          uri: lb:http://RESERVE-HUB-UTILISATEUR-SERVER
+          predicates:
+            - Path=/api/v1/utilisateur/**
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://reserve-hub-discovery-server:10120/eureka/
+      
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+    health:
+      show:
+        details: always
