@@ -5,7 +5,7 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      default-zone: http://reserve-hub-discovery-server-replica:10140/eureka/,http://${eureka.instance.hostname}:${server.port}/eureka/
+      default-zone: http://reserve-hub-discovery-server-replica:10140/eureka/
 
 server:
   port: 10120
