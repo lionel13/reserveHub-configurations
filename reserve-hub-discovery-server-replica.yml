@@ -1,6 +1,6 @@
 eureka:
   instance:
-    hostname: ${spring.application.name}
+    hostname: reserve-hub-discovery-server-replica
   client:
     register-with-eureka: true
     service-url:
