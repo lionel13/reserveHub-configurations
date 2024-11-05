@@ -3,6 +3,7 @@ eureka:
     hostname: reserve-hub-discovery-server-replica
   client:
     register-with-eureka: true
+    fetch-registry: true
     service-url:
       default-zone: http://reserve-hub-discovery-server:10120/eureka/,http://${eureka.instance.hostname}:${server.port}/eureka/
 
