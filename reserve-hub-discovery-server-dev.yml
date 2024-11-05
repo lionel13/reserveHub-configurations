@@ -2,8 +2,6 @@ eureka:
   instance:
     hostname: ${spring.application.name}
   client:
-    register-with-eureka: true
-    fetch-registry: true
     service-url:
       default-zone: http://reserve-hub-discovery-server-replica:10140/eureka/
 
