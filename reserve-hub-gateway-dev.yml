@@ -15,7 +15,7 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone:  http://reserve-hub-discovery-server-peer1:10120/eureka/, http://reserve-hub-discovery-server-peer2:10140/eureka/
+      defaultZone:  http://reserve-hub-discovery-server-peer1:10120/eureka/, http://reserve-hub-discovery-server-peer2:10130/eureka/
       
 management:
   endpoints:
