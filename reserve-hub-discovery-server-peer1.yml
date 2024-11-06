@@ -3,7 +3,7 @@ eureka:
     hostname: reserve-hub-discovery-server-peer1
   client:
     serviceUrl:
-      defaultZone: http://reserve-hub-discovery-server-peer2:10140/eureka/
+      defaultZone: http://reserve-hub-discovery-server-peer2:10130/eureka/
 
 server:
   port: 10120
