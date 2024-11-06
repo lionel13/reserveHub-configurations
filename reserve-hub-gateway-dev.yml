@@ -31,4 +31,4 @@ logging:
     root: INFO
     org.springframework: INFO
   file:
-    name: logs/${spring.application.name}-peer2.log
+    name: logs/${spring.application.name}.log
