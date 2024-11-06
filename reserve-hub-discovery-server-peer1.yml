@@ -1,9 +1,9 @@
 eureka:
   instance:
-    hostname: ${spring.application.name}
+    hostname: ${spring.application.name}-peer1
   client:
     service-url:
-      default-zone: http://reserve-hub-discovery-server-replica:10140/eureka/
+      default-zone: http://reserve-hub-discovery-server-peer2:10140/eureka/
 
 server:
   port: 10120
@@ -22,4 +22,4 @@ logging:
     root: INFO
     org.springframework: INFO
   file:
-    name: logs/${spring.application.name}.log
+    name: logs/${spring.application.name}-peer1.log
