@@ -6,7 +6,7 @@ eureka:
       defaultZone: http://reserve-hub-discovery-server-peer1:10120/eureka/
 
 server:
-  port: 10140
+  port: 10130
 
 management:
   endpoints:
