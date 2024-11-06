@@ -1,6 +1,6 @@
 eureka:
   instance:
-    hostname: ${spring.application.name}-peer1
+    hostname: reserve-hub-discovery-server-peer1
   client:
     service-url:
       default-zone: http://reserve-hub-discovery-server-peer2:10140/eureka/
