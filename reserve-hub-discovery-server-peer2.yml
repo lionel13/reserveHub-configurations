@@ -3,7 +3,7 @@ eureka:
     hostname: ${spring.application.name}-peer2
   client:
     service-url:
-      default-zone: http://reserve-hub-discovery-peer1:10120/eureka/
+      default-zone: http://reserve-hub-discovery-server-peer1:10120/eureka/
 
 server:
   port: 10140
