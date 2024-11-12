@@ -9,7 +9,7 @@ spring:
       authentication-database: admin
 
 server:
-  port: 8901
+  port: 10210
 
 eureka:
   client:
