@@ -1,7 +1,7 @@
 spring:
   data:
     mongodb:
-      host: reserve-hub-mongo
+      host: host.docker.internal
       port: 10410
       username: lionel
       password: lionel
