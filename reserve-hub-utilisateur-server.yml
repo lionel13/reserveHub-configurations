@@ -2,7 +2,7 @@ spring:
   data:
     mongodb:
       host: mongodb
-      port: 27017
+      port: 10410
       username: lionel
       password: lionel
       database: reservehubClient
@@ -14,7 +14,7 @@ server:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://reserve-hub-discovery-server:8761/eureka/
+      defaultZone: http://reserve-hub-discovery-server-peer1:10120/eureka/, http://reserve-hub-discovery-server-peer2:10130/eureka/
 
 management:
   endpoints:
